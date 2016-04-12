@@ -1,20 +1,18 @@
 //
-//  LzyTests.m
-//  LzyTests
+//  TestAB.m
+//  Lzy
 //
-//  Created by Nationsky on 4/8/16.
+//  Created by Nationsky on 4/12/16.
 //  Copyright © 2016 Nationsky. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "LzyTestSuite.h"
 
-@interface LzyTests : XCTestCase
+@interface TestAB : XCTestSuite
 
 @end
 
-@implementation LzyTests
-
+@implementation TestAB
 
 - (void)setUp {
     [super setUp];
@@ -31,11 +29,5 @@
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
 
 @end

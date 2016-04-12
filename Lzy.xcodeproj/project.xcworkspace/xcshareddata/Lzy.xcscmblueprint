@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4CF4221E35B9D49A7C363A575998D6ABE4A83126",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "051B6AAE8DC50CBA29956025FE01549E16FB7BF6" : 0,
+    "4CF4221E35B9D49A7C363A575998D6ABE4A83126" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "86E95A0A-E96C-4BBB-8955-72E630E25517",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "051B6AAE8DC50CBA29956025FE01549E16FB7BF6" : "",
+    "4CF4221E35B9D49A7C363A575998D6ABE4A83126" : "Lzy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lzy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lzy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lzyTest\/SinaSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "051B6AAE8DC50CBA29956025FE01549E16FB7BF6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lzyTest\/Lzy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CF4221E35B9D49A7C363A575998D6ABE4A83126"
+    }
+  ]
+}

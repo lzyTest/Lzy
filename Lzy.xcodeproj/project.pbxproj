@@ -14,11 +14,17 @@
 		735A93091CB7B72F00A8FA80 /* Lzy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 735A93071CB7B72F00A8FA80 /* Lzy.xcdatamodeld */; };
 		735A930B1CB7B72F00A8FA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 735A930A1CB7B72F00A8FA80 /* Assets.xcassets */; };
 		735A930E1CB7B72F00A8FA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 735A930C1CB7B72F00A8FA80 /* LaunchScreen.storyboard */; };
-		735A93191CB7B72F00A8FA80 /* LzyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735A93181CB7B72F00A8FA80 /* LzyTests.m */; };
 		735A93241CB7B73000A8FA80 /* LzyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 735A93231CB7B73000A8FA80 /* LzyUITests.m */; };
-		735A93371CB7B7FE00A8FA80 /* LzyTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 735A93361CB7B7FE00A8FA80 /* LzyTestSuite.m */; };
-		735A93381CB7B7FE00A8FA80 /* LzyTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 735A93361CB7B7FE00A8FA80 /* LzyTestSuite.m */; };
-		735A93391CB7B7FE00A8FA80 /* LzyTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 735A93361CB7B7FE00A8FA80 /* LzyTestSuite.m */; };
+		73F32A2B1CBCE6FB0052F425 /* OCSomeSampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A2A1CBCE6FB0052F425 /* OCSomeSampleTest.m */; };
+		73F32A7F1CBCE96A0052F425 /* LzyTestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A711CBCE96A0052F425 /* LzyTestMethod.m */; };
+		73F32A801CBCE96A0052F425 /* LzyTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A731CBCE96A0052F425 /* LzyTestObserver.m */; };
+		73F32A811CBCE96A0052F425 /* LzyTestRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A751CBCE96A0052F425 /* LzyTestRun.m */; };
+		73F32A821CBCE96A0052F425 /* LzyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A761CBCE96A0052F425 /* LzyTests.m */; };
+		73F32A831CBCE96A0052F425 /* LzyTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A781CBCE96A0052F425 /* LzyTestSuite.m */; };
+		73F32A841CBCE96A0052F425 /* LzyTestSuiteRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A7A1CBCE96A0052F425 /* LzyTestSuiteRun.m */; };
+		73F32A851CBCE96A0052F425 /* NSObject+performSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A7C1CBCE96A0052F425 /* NSObject+performSelector.m */; };
+		73F32A861CBCE96A0052F425 /* SampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A7D1CBCE96A0052F425 /* SampleTest.m */; };
+		73F32A871CBCE96A0052F425 /* TestAB.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F32A7E1CBCE96A0052F425 /* TestAB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +57,26 @@
 		735A930D1CB7B72F00A8FA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		735A930F1CB7B72F00A8FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		735A93141CB7B72F00A8FA80 /* LzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		735A93181CB7B72F00A8FA80 /* LzyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzyTests.m; sourceTree = "<group>"; };
 		735A931A1CB7B72F00A8FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		735A931F1CB7B73000A8FA80 /* LzyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LzyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		735A93231CB7B73000A8FA80 /* LzyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LzyUITests.m; sourceTree = "<group>"; };
 		735A93251CB7B73000A8FA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		735A93351CB7B7FE00A8FA80 /* LzyTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzyTestSuite.h; sourceTree = "<group>"; };
-		735A93361CB7B7FE00A8FA80 /* LzyTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTestSuite.m; sourceTree = "<group>"; };
+		73F32A2A1CBCE6FB0052F425 /* OCSomeSampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSomeSampleTest.m; sourceTree = "<group>"; };
+		73F32A701CBCE96A0052F425 /* LzyTestMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzyTestMethod.h; sourceTree = "<group>"; };
+		73F32A711CBCE96A0052F425 /* LzyTestMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTestMethod.m; sourceTree = "<group>"; };
+		73F32A721CBCE96A0052F425 /* LzyTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzyTestObserver.h; sourceTree = "<group>"; };
+		73F32A731CBCE96A0052F425 /* LzyTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTestObserver.m; sourceTree = "<group>"; };
+		73F32A741CBCE96A0052F425 /* LzyTestRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzyTestRun.h; sourceTree = "<group>"; };
+		73F32A751CBCE96A0052F425 /* LzyTestRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTestRun.m; sourceTree = "<group>"; };
+		73F32A761CBCE96A0052F425 /* LzyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTests.m; sourceTree = "<group>"; };
+		73F32A771CBCE96A0052F425 /* LzyTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzyTestSuite.h; sourceTree = "<group>"; };
+		73F32A781CBCE96A0052F425 /* LzyTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTestSuite.m; sourceTree = "<group>"; };
+		73F32A791CBCE96A0052F425 /* LzyTestSuiteRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzyTestSuiteRun.h; sourceTree = "<group>"; };
+		73F32A7A1CBCE96A0052F425 /* LzyTestSuiteRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LzyTestSuiteRun.m; sourceTree = "<group>"; };
+		73F32A7B1CBCE96A0052F425 /* NSObject+performSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+performSelector.h"; sourceTree = "<group>"; };
+		73F32A7C1CBCE96A0052F425 /* NSObject+performSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+performSelector.m"; sourceTree = "<group>"; };
+		73F32A7D1CBCE96A0052F425 /* SampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTest.m; sourceTree = "<group>"; };
+		73F32A7E1CBCE96A0052F425 /* TestAB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +153,23 @@
 		735A93171CB7B72F00A8FA80 /* LzyTests */ = {
 			isa = PBXGroup;
 			children = (
-				735A93181CB7B72F00A8FA80 /* LzyTests.m */,
+				73F32A701CBCE96A0052F425 /* LzyTestMethod.h */,
+				73F32A711CBCE96A0052F425 /* LzyTestMethod.m */,
+				73F32A721CBCE96A0052F425 /* LzyTestObserver.h */,
+				73F32A731CBCE96A0052F425 /* LzyTestObserver.m */,
+				73F32A741CBCE96A0052F425 /* LzyTestRun.h */,
+				73F32A751CBCE96A0052F425 /* LzyTestRun.m */,
+				73F32A761CBCE96A0052F425 /* LzyTests.m */,
+				73F32A771CBCE96A0052F425 /* LzyTestSuite.h */,
+				73F32A781CBCE96A0052F425 /* LzyTestSuite.m */,
+				73F32A791CBCE96A0052F425 /* LzyTestSuiteRun.h */,
+				73F32A7A1CBCE96A0052F425 /* LzyTestSuiteRun.m */,
+				73F32A7B1CBCE96A0052F425 /* NSObject+performSelector.h */,
+				73F32A7C1CBCE96A0052F425 /* NSObject+performSelector.m */,
+				73F32A7D1CBCE96A0052F425 /* SampleTest.m */,
+				73F32A7E1CBCE96A0052F425 /* TestAB.m */,
 				735A931A1CB7B72F00A8FA80 /* Info.plist */,
+				73F32A2A1CBCE6FB0052F425 /* OCSomeSampleTest.m */,
 			);
 			path = LzyTests;
 			sourceTree = "<group>";
@@ -152,8 +186,6 @@
 		735A93311CB7B76A00A8FA80 /* LzySuite */ = {
 			isa = PBXGroup;
 			children = (
-				735A93351CB7B7FE00A8FA80 /* LzyTestSuite.h */,
-				735A93361CB7B7FE00A8FA80 /* LzyTestSuite.m */,
 			);
 			path = LzySuite;
 			sourceTree = "<group>";
@@ -290,7 +322,6 @@
 			files = (
 				735A93031CB7B72F00A8FA80 /* ViewController.m in Sources */,
 				735A93001CB7B72F00A8FA80 /* AppDelegate.m in Sources */,
-				735A93371CB7B7FE00A8FA80 /* LzyTestSuite.m in Sources */,
 				735A92FD1CB7B72F00A8FA80 /* main.m in Sources */,
 				735A93091CB7B72F00A8FA80 /* Lzy.xcdatamodeld in Sources */,
 			);
@@ -300,8 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735A93381CB7B7FE00A8FA80 /* LzyTestSuite.m in Sources */,
-				735A93191CB7B72F00A8FA80 /* LzyTests.m in Sources */,
+				73F32A831CBCE96A0052F425 /* LzyTestSuite.m in Sources */,
+				73F32A821CBCE96A0052F425 /* LzyTests.m in Sources */,
+				73F32A801CBCE96A0052F425 /* LzyTestObserver.m in Sources */,
+				73F32A861CBCE96A0052F425 /* SampleTest.m in Sources */,
+				73F32A871CBCE96A0052F425 /* TestAB.m in Sources */,
+				73F32A7F1CBCE96A0052F425 /* LzyTestMethod.m in Sources */,
+				73F32A851CBCE96A0052F425 /* NSObject+performSelector.m in Sources */,
+				73F32A841CBCE96A0052F425 /* LzyTestSuiteRun.m in Sources */,
+				73F32A2B1CBCE6FB0052F425 /* OCSomeSampleTest.m in Sources */,
+				73F32A811CBCE96A0052F425 /* LzyTestRun.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				735A93391CB7B7FE00A8FA80 /* LzyTestSuite.m in Sources */,
 				735A93241CB7B73000A8FA80 /* LzyUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +558,7 @@
 				735A932A1CB7B73000A8FA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735A932B1CB7B73000A8FA80 /* Build configuration list for PBXNativeTarget "LzyTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +567,7 @@
 				735A932D1CB7B73000A8FA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		735A932E1CB7B73000A8FA80 /* Build configuration list for PBXNativeTarget "LzyUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +576,7 @@
 				735A93301CB7B73000A8FA80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
