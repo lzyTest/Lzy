@@ -15,7 +15,7 @@
 
 @end
 
-@implementation OCSomeSampleTest
+@implementation SampleTest
 
 - (void)setUp {
     [super setUp];
@@ -43,6 +43,8 @@
     XCTestSuite *testSuite = [XCTestSuite testSuiteForTestCaseWithName: NSStringFromClass(self)];
     
     [self addTestsWithArray:@[@"Brian"] expectedString:@"Brian" toTestSuite:testSuite];
+    [self addTestsWithArray:@[@"Alina"] expectedString:@"Alina" toTestSuite:testSuite];
+    [self addTestsWithArray:@[@"Balni"] expectedString:@"Balna" toTestSuite:testSuite];
     
     return testSuite;
 }

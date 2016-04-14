@@ -7,9 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "LzyTestSuite.h"
+#import "LzyTestCases.h"
+#import "LzyTestMethod.h"
 
-@interface LzyTests : XCTestCase
+@interface LzyTests : LzyTestCases
 
 @end
 
@@ -26,16 +27,35 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+
++ (NSArray *)testCaseData{
+
+    NSDictionary *dataA = [NSDictionary dictionaryWithObjects:@[@"LzyTestMethod",@"PrintA:",@"AAAAAA"] forKeys:@[@"TestClass",@"TestMethod",@"TestData"]];
+    NSDictionary *dataB = [NSDictionary dictionaryWithObjects:@[@"LzyTestMethod",@"PrintB:",@"BBBBBB"] forKeys:@[@"TestClass",@"TestMethod",@"TestData"]];
+    
+    return @[dataA, dataB];
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
+/*
+<testCase>
+    <testClass>LzyTestMethod</testClass>
+    <testMethod>PrintA:</testMethod>
+    <testData>
+        <string>AAAAAA</string>
+    </testData>
+</testCase>
+ 
+ 
+ */
+
+
+//- (void)testPrintA{
+//    [LzyTestMethod printA:@"111111"];
+//}
+//
+//- (void)testPrintB{
+//    [LzyTestMethod printA:@"222222"];
+//}
+
 
 @end
