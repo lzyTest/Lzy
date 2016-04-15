@@ -8,10 +8,12 @@
 
 #import <XCTest/XCTest.h>
 
-@interface LzyTestMethod : XCTestCase
+@interface LzyTestMethod : NSObject
 
 - (void)printA:(NSString *)string;
 
 - (void)printB:(NSString *)string;
+
++ (XCTestCase *)createTestCase:(NSDictionary *)testData;
 
 @end
